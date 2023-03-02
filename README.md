@@ -32,6 +32,7 @@ str.replace("розы", "красивые");
 
 10. Что выведет в консоль?
 
+```jsx
 const str = "abcdefghij";
-
-console.log("(2,3): " + str.substr(2,3));
+console.log("(2,3): " + str.substr(2, 3));
+```
