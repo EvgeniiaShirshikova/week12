@@ -41,12 +41,16 @@ const x = "Солнце";
 console.log("The string length is " + x.length);
 ```
 
+"The string length is 6"
+
 8. Каким будет результат в представленном ниже фрагменте кода?
 
 ```jsx
 const upperText = "ВелоСипед";
 document.write(upperText.toUpperCase());
 ```
+
+ВЕЛОСИПЕД
 
 9. Каким будет результат в приведенном ниже фрагменте кода?
 
@@ -55,9 +59,16 @@ let str = "розы такие розы";
 str.replace("розы", "красивые");
 ```
 
+Пока никаким. Если дополнить выводом в консоль, то "красивые такие розы".
+let str = "розы такие розы";
+let str1 = str.replace("розы", "красивые");
+console.log(str1)
+
 10. Что выведет в консоль?
 
 ```jsx
 const str = "abcdefghij";
 console.log("(2,3): " + str.substr(2, 3));
 ```
+
+"(2,3): cde"
