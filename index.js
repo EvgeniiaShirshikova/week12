@@ -9,6 +9,6 @@ const comment = document.querySelector('.comment');
 button.addEventListener("click", function() {
     avatarimg.src;
 avatarimg.src = inpimg.value;
-    username.textContent = inpname.value;
-comment.textContent = inpcomment.value;
+    username.value = inpname.value;
+comment.value = inpcomment.value;
 });
