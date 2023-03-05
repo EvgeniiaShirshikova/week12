@@ -8,11 +8,12 @@ const comment = document.querySelector('.comment'); */
 const chatarea = document.querySelector('.chatarea');
 
 
+
 form.addEventListener("submit", (event) => {
 event.preventDefault();
+let comment = inpcomment.value;
+let checkedComment = comment.replace(/viagra|xxx/gi, '***');
 
-chatarea.insertAdjacentHTML("beforeend", `<img class="avatarimg" src="${inpimg.value}" alt=""><div class="username">${inpname.value}</div><div class="comment">${inpcomment.value}</div>`);
+chatarea.insertAdjacentHTML("beforeend", `<img class="avatarimg" src="${inpimg.value}" alt=""><div class="username">${inpname.value}</div><div class="comment">${checkedComment}</div>`);
 
 });
-
-
