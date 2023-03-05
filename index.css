@@ -54,6 +54,8 @@ form {
 }
 
 .inputsarea {
+    display: flex;
+    flex-direction: column;
     padding-left: 2%;
     width: 50%;
 }

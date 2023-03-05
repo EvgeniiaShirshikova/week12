@@ -1,14 +1,18 @@
 const inpname = document.getElementById('inpname');
 const inpimg = document.getElementById('inpimg');
 const inpcomment = document.getElementById('inpcomment');
-const button = document.getElementById('button');
+const form = document.querySelector('form');
 const avatarimg = document.querySelector('.avatarimg');
 const username = document.querySelector('.username');
 const comment = document.querySelector('.comment');
 
-button.addEventListener("click", function() {
-    avatarimg.src;
+
+form.addEventListener("submit", (event) => {
+event.preventDefault();
+avatarimg.src;
 avatarimg.src = inpimg.value;
-    username.value = inpname.value;
-comment.value = inpcomment.value;
+username.innerHTML = inpname.value;
+comment.innerHTML = inpcomment.value;
 });
+
+
